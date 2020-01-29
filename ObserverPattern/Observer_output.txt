@@ -1,0 +1,4 @@
+Witch King is aware of the 1 hobbits, the 1 elves, the 2 dwarves, and the 0 men.
+Saruman is aware of the 1 hobbits, the 1 elves, the 2 dwarves, and the 0 men.
+Saruman has been defeated by the forces of good!
+Witch King is aware of the 4 hobbits, the 2 elves, the 2 dwarves, and the 100 men.
