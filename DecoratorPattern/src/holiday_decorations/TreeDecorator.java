@@ -1,3 +1,5 @@
+package holiday_decorations;
+
 public abstract class TreeDecorator implements Tree {
 
    private Tree tree;
@@ -11,14 +13,20 @@ public abstract class TreeDecorator implements Tree {
       this.tree = tree;
    }
    
+   public Tree getTree() {
+      return this.tree;
+   }
+   
    public int cost() {
    
       return this.tree.cost();
    }
-   
-   public Tree getTree() {
-      return this.tree;
+
+   public String description() {
+      return this.tree.description();
    }
+   
+   
 
 
 
