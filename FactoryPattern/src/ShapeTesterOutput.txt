@@ -1,0 +1,85 @@
+Due to the nature as described below, I have 3 output captures.
+
+
+Welcome to the Shape Factory Demo!
+This demonstration was done using the Random class with shape dimensions ranging from 1 to 10
+The seed used for this demonstration is: 8638710003239041905
+==================================================================
+Filling list with Shapes...
+==================================================================
+List of Shapes before sorting
+Shape: Square. Area: 100 units.
+Shape: Rectangle. Area: 5 units.
+Shape: Circle. Area: 78.5398 units.
+Shape: Square. Area: 1 units.
+==================================================================
+List of Shapes after sorting
+Shape: Circle. Area: 78.5398 units.
+Shape: Rectangle. Area: 5 units.
+Shape: Square. Area: 1 units.
+Shape: Square. Area: 100 units.
+==================================================================
+This concludes the demonstration. Have a wonderful day!
+
+
+Welcome to the Shape Factory Demo!
+This demonstration was done using the Random class with shape dimensions ranging from 1 to 10
+The seed used for this demonstration is: 1041326593231460501
+==================================================================
+Filling list with Shapes...
+==================================================================
+List of Shapes before sorting
+Shape: Triangle. Area: 28 units.
+Shape: Square. Area: 64 units.
+Shape: Square. Area: 36 units.
+Shape: Circle. Area: 50.2655 units.
+Shape: Triangle. Area: 22.5 units.
+Shape: Triangle. Area: 31.5 units.
+==================================================================
+List of Shapes after sorting
+Shape: Circle. Area: 50.2655 units.
+Shape: Square. Area: 36 units.
+Shape: Square. Area: 64 units.
+Shape: Triangle. Area: 22.5 units.
+Shape: Triangle. Area: 28 units.
+Shape: Triangle. Area: 31.5 units.
+==================================================================
+This concludes the demonstration. Have a wonderful day!
+
+
+
+Welcome to the Shape Factory Demo!
+This demonstration was done using the Random class with shape dimensions ranging from 1 to 10
+The seed used for this demonstration is: 6819463034401613319
+==================================================================
+Filling list with Shapes...
+==================================================================
+List of Shapes before sorting
+Shape: Circle. Area: 314.1593 units.
+Shape: Triangle. Area: 6 units.
+Shape: Triangle. Area: 18 units.
+Shape: Circle. Area: 28.2743 units.
+Shape: Circle. Area: 153.938 units.
+Shape: Triangle. Area: 31.5 units.
+Shape: Square. Area: 100 units.
+Shape: Rectangle. Area: 32 units.
+Shape: Circle. Area: 201.0619 units.
+Shape: Rectangle. Area: 63 units.
+==================================================================
+List of Shapes after sorting
+Shape: Circle. Area: 28.2743 units.
+Shape: Circle. Area: 153.938 units.
+Shape: Circle. Area: 201.0619 units.
+Shape: Circle. Area: 314.1593 units.
+Shape: Rectangle. Area: 32 units.
+Shape: Rectangle. Area: 63 units.
+Shape: Square. Area: 100 units.
+Shape: Triangle. Area: 6 units.
+Shape: Triangle. Area: 18 units.
+Shape: Triangle. Area: 31.5 units.
+==================================================================
+This concludes the demonstration. Have a wonderful day!
+
+
+
+

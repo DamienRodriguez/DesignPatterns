@@ -8,8 +8,6 @@ import shapes.*;
 
 
 /* To-Do
- * Fix the compareTo, because it seems to not be working
- * Set up RNG styled creator to fill list with random shapes with random values
  * Write up UML for the homework
  * Profit
  */
@@ -19,14 +17,14 @@ public class ShapeTester {
    
       ArrayList<Shape> myList = new ArrayList<Shape>();
       DecimalFormat df = new DecimalFormat("###.####");
-      Random rngesus = new Random();
+      Random rng = new Random();
       
-      long seed = rngesus.nextLong();
+      long seed = rng.nextLong();
       
       ShapeFactory factory = new ShapeFactory();
       
       initMessage(seed);
-      fillList(rngesus,factory,myList);
+      fillList(rng,factory,myList);
       printList(myList, df);
       System.out.println("This concludes the demonstration. Have a wonderful day!");
    	
