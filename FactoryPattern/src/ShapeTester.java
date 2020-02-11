@@ -13,19 +13,28 @@ import shapes.*;
  */
 public class ShapeTester {
 
-   public static void main(String[] args) {
+   final static DecimalFormat df = new DecimalFormat("###.####");
    
+   public static void main(String[] args) {
       ArrayList<Shape> myList = new ArrayList<Shape>();
-      DecimalFormat df = new DecimalFormat("###.####");
-      Random rng = new Random();
-      
+ 
+      Random rng = new Random();     
       long seed = rng.nextLong();
       
       ShapeFactory factory = new ShapeFactory();
       
       initMessage(seed);
       fillList(rng,factory,myList);
-      printList(myList, df);
+      System.out.println("List of Shapes before sorting");
+      printList(myList);
+      
+      printBreak();
+      System.out.println("List of Shapes after sorting");
+      Collections.sort(myList);
+      
+      printList(myList);
+      
+      printBreak();
       System.out.println("This concludes the demonstration. Have a wonderful day!");
    	
    }
@@ -38,7 +47,7 @@ public class ShapeTester {
       int dim2 = 0;
       
       System.out.println("Filling list with Shapes...");
-      System.out.println("==================================================================");
+      printBreak();
       
       for(int x = 0; x < numOf; x++) {
          choice = rng.nextInt(4);
@@ -65,26 +74,18 @@ public class ShapeTester {
       System.out.println("Welcome to the Shape Factory Demo!");
       System.out.println("This demonstration was done using the Random class with shape dimensions ranging from 1 to 10");
       System.out.println("The seed used for this demonstration is: " + seed);
-      System.out.println("==================================================================");
+      printBreak();
     
    }
    
-   public static void printList(final ArrayList<Shape> myList, final DecimalFormat df) {
-      System.out.println("List of Shapes before sorting");
-      for(int x = 0; x < myList.size(); x++) {
-         System.out.println("Shape: " + myList.get(x).name() + ". Area: " + df.format(myList.get(x).area()) + " units.");
-      }
-      
-      System.out.println("==================================================================");
-      System.out.println("List of Shapes after sorting");
-      Collections.sort(myList);
+   public static void printList(final ArrayList<Shape> myList) {
       
       for(int x = 0; x < myList.size(); x++) {
          System.out.println("Shape: " + myList.get(x).name() + ". Area: " + df.format(myList.get(x).area()) + " units.");
       }
-      System.out.println("==================================================================");
-   
    }
-
-
+   
+   public static void printBreak() {
+      System.out.println("==================================================================");
+   }
 }
